@@ -1,0 +1,24 @@
+{
+  "name": "romm-deck",
+  "version": "1.0.0",
+  "description": "Steam Deck Flatpak for ROMM",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && electron-builder",
+    "start": "electron .",
+    "dist": "electron-builder --linux"
+  },
+  "dependencies": {
+    "electron": "^28.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "node-fetch": "^3.3.2",
+    "unzipper": "^0.12.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "electron-builder": "^24.6.0",
+    "typescript": "^5.3.3"
+  }
+}
